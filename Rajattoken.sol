@@ -3,10 +3,10 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract PramodToken is ERC20 {
+contract RajatToken is ERC20 {
     address public admin;
 
-    constructor(uint256 initialSupply) ERC20("Pramod", "PRM") {
+    constructor(uint256 initialSupply) ERC20("Rajat", "RAJ") {
         _mint(msg.sender, initialSupply);
         admin = msg.sender;
     }
